@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import TaskList from './TaskList';
 
 export function PureInboxScreen({ error }) {
+    console.log("asd")
   if (error) {
     return (
       <div className="page lists-show">
